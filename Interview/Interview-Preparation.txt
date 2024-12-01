@@ -1,0 +1,20 @@
+1. What is MSBuild?
+   MSBuild is a build platform for Microsoft and Visual Studio that uses an XML schema to define and control the build process.
+
+2. What are the four building blocks of MSBuild?
+   Targets, Items, Properties, and Tasks.
+
+3. Can you build an application without Visual Studio installed?
+   Answer**: Yes, by using the `msbuild.exe` file, you can build applications without Visual Studio.
+
+4. How do you declare properties in MSBuild?
+   Answer**: Properties are declared within a `<PropertyGroup>` element in the project file.
+
+5. What is the role of a Target in MSBuild?
+   Answer**: A Target is a group of tasks that are executed sequentially to perform a specific build operation.
+
+6. How does MSBuild handle dependencies?
+   Answer**: MSBuild manages dependencies through project references and item definitions, ensuring that projects are built in the correct order.
+
+7. What is the benefit of using a 64-bit version of MSBuild?
+   Answer**: It allows access to more memory, which can improve performance and handle larger projects.
